@@ -1,7 +1,7 @@
 package page;
 
 public class Paging {
-	   private int pageSize = 10;   // 화면에 보여질 게시글의 갯수를 지정
+	   private int pageSize = 20;   // 화면에 보여질 게시글의 갯수를 지정
 	   private int count = 0;       // 전체 글의 갯수를 저장하는 변수
 	   private int number = 0;     // 페이지 번호
 	   private String pageNum;
